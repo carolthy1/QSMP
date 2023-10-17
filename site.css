@@ -1,0 +1,254 @@
+.body {
+  display: flex;
+  background-color: #fdfbfa;
+}
+
+.main {
+  display: flex;
+  background-color: #fdfbfa;
+}
+
+.barra {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  background-color: #008721;
+  color: white;
+  padding: 5px;
+  margin-bottom: 30px;
+  border-bottom: 5px solid black;
+}
+
+.text1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.text2 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  background-color: #008721;
+  color: white;
+  padding: 5px;
+  margin-bottom: 30px;
+  border-bottom: 5px solid black;
+}
+
+.logo {
+  width: 50%;
+  height: auto;
+}
+
+.textonho {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.invi {
+  display: none;
+}
+
+.visivel {
+  display: grid;
+}
+
+.a9 {
+  color: blue;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.a10 {
+  color: blue;
+  font-size: 20px;
+  margin-top: 40px;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.a11 {
+  color: blue;
+  font-size: 15px;
+  margin-top: 40px;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.a14 {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.a16 {
+  background-color: orange;
+  color: black;
+  border: 2px solid black;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.a17 {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  gap: 100px;
+  padding: 5px;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+}
+
+.a19 {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  gap: 100px;
+  padding: 5px;
+  justify-content: center;
+  margin: auto;
+}
+
+.a18 {
+  display: inline-block;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.b18 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#finalbutton19 {
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.a21 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+  padding: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.a22 {
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.a24 {
+  display: inline-block;
+  margin-left: 700px;
+  margin-right: 700px;
+  margin-top: 50px;
+  padding: 30px;
+  text-align: justify;
+  align-items: center;
+  border: 2px solid black;
+}
+
+.a25 {
+  display: flex;
+}
+
+.a26 {
+  border: 2px solid black;
+  margin-right: 700px;
+  padding: 10px;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.a26_1 {
+  margin-left: 2000px;
+}
+
+#off {
+  width: 170px;
+  height: 170px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+  background-color: #f3eaeaa4;
+}
+
+#finalbutton27 {
+  padding-top: 30px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  cursor: pointer;
+}
+
+.a27 {
+  display: flex;
+  flex-direction: row;
+  gap: 750px;
+}
+
+.a29 {
+  display: flex;
+  gap: 500px;
+}
+
+.pizza-container {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.ingrediente {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+input[type="checkbox"] {
+  margin: 5px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+}
+
+.a90 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#finaltable {
+  text-align: left;
+  width: 80%;
+  margin: auto;
+  border: 3px solid #008721;
+  border-collapse: collapse;
+  font-size: 20px;
+}
+
+table td,
+th,
+tr {
+  padding: 10px;
+  border: 2px solid #008721;
+}

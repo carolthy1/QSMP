@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mousercise</title>
+    <link rel="stylesheet" href="site.css" />
+    <script src="site.js"></script>
+  </head>
+
+  <body>
+    <div class="barra">
+      <p>
+        <b
+          style="
+            align-items: center;
+            color: white;
+            text-shadow: black 0.1em 0.1em 0.2em;
+            font-family: 'Pixelify Sans', sans-serif;
+            font-size: 40px;
+          "
+          >QSMP Mousercise</b
+        ><img
+          src="QSMP_Logo.webp"
+          alt="logo da Home Host"
+          style="float: right; width: 150px"
+          Pixelify
+          Sans
+        />
+      </p>
+    </div>
+    <main style="margin: 10px; font-family: 'Open Sans', sans-serif">
+      <div
+        id="32"
+        class="visivel"
+        style="
+          font-family: Arial, Helvetica, sans-serif;
+          align-items: center;
+          text-align: center;
+        "
+      >
+        <p style="font-family: Arial, Helvetica, sans-serif">
+          A pequena caixa branca abaixo é uma caixa de lista suspensa. Clique na
+          seta triangular preta à direita para abrir a lista de opções e, a
+          seguir, clique na opção desejada.
+        </p>
+        <p>
+          Selecione o dia de hoje na caixa de listagem suspensa e clique no
+          botão 'Continuar'.
+        </p>
+        <p>Hoje é:</p>
+        <div>
+          <select id="diaSemana" onchange="checkDiaSemana()">
+            <option value="">Selecione um dia</option>
+            <option value="Segunda">Segunda-feira</option>
+            <option value="Terça">Terça-feira</option>
+            <option value="Quarta">Quarta-feira</option>
+            <option value="Quinta">Quinta-feira</option>
+            <option value="Sexta">Sexta-feira</option>
+            <option value="Sábado">Sábado</option>
+            <option value="Domingo">Domingo</option>
+          </select>
+          <div style="display: flex; justify-content: center">
+            <a href="pagina34.html">
+              <img
+                onclick="prox32()"
+                class="invi"
+                id="finalbutton32"
+                src="http://mnl.mclinc.org/wp-content/uploads/ComputerLab/Mousercise2.0/images/continue.gif"
+                alt="botao"
+                style="display: none; margin: 20px"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

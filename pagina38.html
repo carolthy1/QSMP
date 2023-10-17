@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mousercise</title>
+    <link rel="stylesheet" href="site.css" />
+    <script src="site.js"></script>
+  </head>
+
+  <body>
+    <div class="barra">
+      <p>
+        <b
+          style="
+            align-items: center;
+            color: white;
+            text-shadow: black 0.1em 0.1em 0.2em;
+            font-family: 'Pixelify Sans', sans-serif;
+            font-size: 40px;
+          "
+          >QSMP Mousercise</b
+        ><img
+          src="QSMP_Logo.webp"
+          alt="logo da Home Host"
+          style="float: right; width: 150px"
+          Pixelify
+          Sans
+        />
+      </p>
+    </div>
+    <main style="margin: 10px; font-family: 'Open Sans', sans-serif">
+      <div id="37" class="visivel">
+        <p
+          style="text-align: center; font-size: 30px; color: blueviolet"
+          id="modtitle"
+        ></p>
+
+        <p style="text-align: center">
+          Pratique suas habilidades <strong>copiando</strong> respostas na
+          coluna da esquerda e <strong>colando-as</strong> nas suas respectivas
+          perguntas.
+        </p>
+
+        <p style="text-align: center">
+          Para <strong>copiar</strong> um texto, destaque-o com o mouse, então
+          segure <strong>Ctrl</strong> enquanto aperta <strong>C</strong>. Cole
+          dentro da textbox onde você quer colar a resposta, então segure
+          <strong>Ctrl</strong> e aperte <strong>V</strong>.
+        </p>
+
+        <p style="text-align: center">
+          Você deve responder todas as perguntas corretamente antes de
+          continuar.
+        </p>
+
+        <hr />
+
+        <table>
+          <tbody>
+            <tr>
+              <th style="padding-right: 1px"><strong>Respostas:</strong></th>
+              <th style="padding: 10px; float: left">
+                <strong>Questões:</strong>
+              </th>
+            </tr>
+            <tr>
+              <td>Chayanne</td>
+              <td>A. Qual a nacionalidade de Richarlyson?</td>
+              <td>
+                <input
+                  onpaste="handlePaste1(event)"
+                  readonly
+                  style="margin-left: 10px"
+                  type="text"
+                  id="ip1"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Brasovo</td>
+              <td>B. Quem são os pais de Bobby?</td>
+              <td>
+                <input
+                  onpaste="handlePaste2(event)"
+                  readonly
+                  style="margin-left: 10px"
+                  type="text"
+                  id="ip2"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Tallulah</td>
+              <td>C. Que ovo tem uma boia de patinho?</td>
+              <td>
+                <input
+                  onpaste="handlePaste3(event)"
+                  readonly
+                  style="margin-left: 10px"
+                  type="text"
+                  id="ip3"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Roier e Jaiden</td>
+              <td>D. Que ovo toca flauta?</td>
+              <td>
+                <input
+                  onpaste="handlePaste4(event)"
+                  readonly
+                  style="margin-left: 10px"
+                  type="text"
+                  id="ip4"
+                />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p>
+          <a href="pagina40.html">
+            <img
+              onclick="prox37()"
+              class="invi"
+              id="finalbutton37"
+              src="http://mnl.mclinc.org/wp-content/uploads/ComputerLab/Mousercise2.0/images/continue.gif"
+              alt="botao"
+          /></a>
+        </p>
+      </div>
+    </main>
+  </body>
+</html>

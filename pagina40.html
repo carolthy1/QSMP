@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mousercise</title>
+    <link rel="stylesheet" href="site.css" />
+    <script src="site.js"></script>
+  </head>
+  <body>
+    <div class="barra">
+      <p>
+        <b
+          style="
+            color: white;
+            text-shadow: 0.1em 0.1em 0.2em black;
+            font-family: 'Pixelify Sans', sans-serif;
+            font-size: 40px;
+          "
+          >QSMP Mousercise</b
+        ><img
+          src="QSMP_Logo.webp"
+          alt="logo da Home Host"
+          style="float: right; width: 150px"
+        />
+      </p>
+    </div>
+    <main style="margin: 10px; font-family: 'Open Sans', sans-serif">
+      <div id="38" class="visivel">
+        <p
+          style="
+            text-align: center;
+            font-size: 60px;
+            color: rgb(204, 18, 105);
+            font-family: jjk;
+          "
+        >
+          Parabéns! Você completou o desafio!
+        </p>
+        <p
+          style="
+            text-align: center;
+            font-size: 30px;
+            color: rgb(236, 16, 53);
+            font-family: jjk;
+          "
+        >
+          Veja abaixo o resultado de cada atividade realizada.
+        </p>
+        <br />
+        <a href="index.html"><button id="back">Página Inicial</button></a>
+        <table style="margin-left: auto; margin-right: auto" id="finaltable">
+          <tbody>
+            <tr>
+              <th>Número do exercício</th>
+              <th>Número de clicks esperados</th>
+              <th>Número de clicks realizados</th>
+              <th>Resultado</th>
+            </tr>
+
+            <tr>
+              <td>1</td>
+              <td id="e1">1</td>
+              <td id="click1">n</td>
+              <td id="r1">n</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td id="e2">1</td>
+              <td id="click2">n</td>
+              <td id="r2">n</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td id="e3">1</td>
+              <td id="click3">n</td>
+              <td id="r3">n</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td id="e4">1</td>
+              <td id="click4">n</td>
+              <td id="r4">n</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td id="e5">1</td>
+              <td id="click5">n</td>
+              <td id="r5">n</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+    <script>
+      const clickes1 = 1;
+      const clicados1 = localStorage.getItem("qnt1");
+
+      const click1 = document.getElementById("click1");
+      const r1 = document.getElementById("r1");
+      click1.textContent = clicados1;
+
+      if (clicados1 == clickes1) {
+        r1.textContent = "Legal";
+      } else {
+        r1.textContent = "Deslegal";
+      }
+    </script>
+    <script>
+      const clickes2 = 1;
+      const clicados2 = localStorage.getItem("qnt2");
+
+      const click2 = document.getElementById("click2");
+      const r2 = document.getElementById("r2");
+      click2.textContent = clicados2;
+
+      if (clicados2 == clickes2) {
+        r2.textContent = "Legal";
+      } else {
+        r2.textContent = "Deslegal";
+      }
+    </script>
+    <script>
+      const clickes3 = 1;
+      const clicados3 = localStorage.getItem("qnt3");
+
+      const click3 = document.getElementById("click3");
+      const r3 = document.getElementById("r3");
+      click3.textContent = clicados3;
+
+      if (clicados3 == clickes3) {
+        r3.textContent = "Legal";
+      } else {
+        r3.textContent = "Deslegal";
+      }
+    </script>
+    <script>
+      const clickes4 = 1;
+      const clicados4 = localStorage.getItem("qnt4");
+
+      const click4 = document.getElementById("click4");
+      const r4 = document.getElementById("r4");
+      click4.textContent = clicados4;
+
+      if (clicados4 == clickes4) {
+        r4.textContent = "Legal";
+      } else {
+        r4.textContent = "Deslegal";
+      }
+    </script>
+    <script>
+      const clickes5 = 1;
+      const clicados5 = localStorage.getItem("qnt5");
+
+      const click5 = document.getElementById("click5");
+      const r5 = document.getElementById("r5");
+      click5.textContent = clicados5;
+
+      if (clicados5 == clickes5) {
+        r5.textContent = "Legal";
+      } else {
+        r5.textContent = "Deslegal";
+      }
+    </script>
+    <script>
+      const clickes6 = 1;
+      const clicados6 = localStorage.getItem("qnt6");
+
+      const click6 = document.getElementById("click6");
+      const r6 = document.getElementById("r6");
+      click6.textContent = clicados6;
+
+      if (clicados6 == clickes6) {
+        r6.textContent = "Legal";
+      } else {
+        r6.textContent = "Deslegal";
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mousercise</title>
+    <link rel="stylesheet" href="site.css" />
+    <script src="site.js"></script>
+  </head>
+
+  <body>
+    <div class="barra">
+      <p>
+        <b
+          style="
+            align-items: center;
+            color: white;
+            text-shadow: black 0.1em 0.1em 0.2em;
+            font-family: 'Pixelify Sans', sans-serif;
+            font-size: 40px;
+          "
+          >QSMP Mousercise</b
+        ><img
+          src="QSMP_Logo.webp"
+          alt="logo da Home Host"
+          style="float: right; width: 150px"
+          Pixelify
+          Sans
+        />
+      </p>
+    </div>
+    <main style="margin: 10px; font-family: 'Open Sans', sans-serif">
+      <div
+        id="29"
+        class="visivel"
+        style="font-family: Arial, Helvetica, sans-serif"
+      >
+        <p>
+          Selecione uma ou mais opções nas caixas de seleção abaixo e clique no
+          botão ‘Continuar’.
+        </p>
+        <p>Escolha quantos recheios de pizza desejar:</p>
+        <div class="a29">
+          <table class="a29_1">
+            <tr>
+              <td>
+                <input
+                  type="checkbox"
+                  onchange="updatePizza()"
+                  id="checkbox-salchicha"
+                />
+              </td>
+              <td>Salchicha</td>
+            </tr>
+            <tr>
+              <td>
+                <input
+                  type="checkbox"
+                  onchange="updatePizza()"
+                  id="checkbox-peperone"
+                />
+              </td>
+              <td>Peperone</td>
+            </tr>
+            <tr>
+              <td>
+                <input
+                  type="checkbox"
+                  onchange="updatePizza()"
+                  id="checkbox-abacaxi"
+                />
+              </td>
+              <td>Abacaxi</td>
+            </tr>
+            <tr>
+              <td>
+                <input
+                  type="checkbox"
+                  onchange="updatePizza()"
+                  id="checkbox-pimentao"
+                />
+              </td>
+              <td>Pimentão</td>
+            </tr>
+            <tr>
+              <td>
+                <input
+                  type="checkbox"
+                  onchange="updatePizza()"
+                  id="checkbox-cebola"
+                />
+              </td>
+              <td>Cebola</td>
+            </tr>
+            <tr>
+              <td>
+                <input
+                  type="checkbox"
+                  onchange="updatePizza()"
+                  id="checkbox-cogumelo"
+                />
+              </td>
+              <td>Cogumelo</td>
+            </tr>
+          </table>
+          <div style="display: block" class="pizza-container">
+            <img
+              src="http://mnl.mclinc.org/wp-content/uploads/ComputerLab/Mousercise2.0/images/pizza.png"
+              id="pizza"
+            />
+            <img
+              src="http://mnl.mclinc.org/wp-content/uploads/ComputerLab/Mousercise2.0/images/sausage-overlay.png"
+              class="ingrediente"
+              id="salchicha"
+            />
+            <img
+              src="http://mnl.mclinc.org/wp-content/uploads/ComputerLab/Mousercise2.0/images/pepperoni-overlay.png"
+              class="ingrediente"
+              id="peperone"
+            />
+            <img
+              src="http://mnl.mclinc.org/wp-content/uploads/ComputerLab/Mousercise2.0/images/pineapples-overlay.png"
+              class="ingrediente"
+              id="abacaxi"
+            />
+            <img
+              src="http://mnl.mclinc.org/wp-content/uploads/ComputerLab/Mousercise2.0/images/green-peppers-overlay.png"
+              class="ingrediente"
+              id="pimentao"
+            />
+            <img
+              src="http://mnl.mclinc.org/wp-content/uploads/ComputerLab/Mousercise2.0/images/onions-overlay.png"
+              class="ingrediente"
+              id="cebola"
+            />
+            <img
+              src="http://mnl.mclinc.org/wp-content/uploads/ComputerLab/Mousercise2.0/images/mushrooms-overlay.png"
+              class="ingrediente"
+              id="cogumelo"
+            />
+          </div>
+        </div>
+        <a href="pagina31.html">
+          <img
+            onclick="prox29()"
+            class="invi"
+            id="finalbutton29"
+            src="http://mnl.mclinc.org/wp-content/uploads/ComputerLab/Mousercise2.0/images/continue.gif"
+            alt="botao"
+        /></a>
+      </div>
+    </main>
+  </body>
+</html>

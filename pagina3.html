@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mousercise</title>
+    <link rel="stylesheet" href="site.css" />
+  </head>
+  <body>
+    <div class="barra">
+      <p>
+        <b
+          style="
+            color: white;
+            text-shadow: 0.1em 0.1em 0.2em black;
+            font-family: 'Pixelify Sans', sans-serif;
+            font-size: 40px;
+          "
+          >QSMP Mousercise</b
+        >
+        <img
+          src="QSMP_Logo.webp"
+          alt="logo da Home Host"
+          style="float: right; width: 150px"
+        />
+      </p>
+    </div>
+    <main style="margin: 10px; font-family: 'Open Sans', sans-serif">
+      <div id="2" class="visivel" style="float: left">
+        <p>Clique no número 2 à direita.</p>
+        <a href="pagina4.html">
+          <p
+            onclick="prox2()"
+            style="color: blue; position: fixed; right: 20px; margin: 20px"
+          >
+            2
+          </p>
+        </a>
+      </div>
+    </main>
+    <script>
+      let contador = 0;
+
+      const pagina = document.getElementsByTagName("html").item(0);
+      pagina.addEventListener("click", aumentar);
+
+      function aumentar() {
+        contador++;
+        localStorage.setItem("qnt2", contador);
+      }
+    </script>
+    <script src="site.js"></script>
+  </body>
+</html>
