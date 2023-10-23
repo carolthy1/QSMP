@@ -18,6 +18,7 @@
             text-shadow: black 0.1em 0.1em 0.2em;
             font-family: 'Pixelify Sans', sans-serif;
             font-size: 40px;
+            margin-left: 15px;
           "
           >QSMP Mousercise</b
         ><img
@@ -67,15 +68,40 @@
           />
         </div>
         <a href="pagina33.html">
-        <img
-          onclick="prox31()"
-          class="invi"
-          id="finalbutton31"
-          src="http://mnl.mclinc.org/wp-content/uploads/ComputerLab/Mousercise2.0/images/continue.gif"
-          alt="botao"
-          style="display: none; margin: 20px"
+          <img
+            onclick="prox31()"
+            class="invi"
+            id="finalbutton31"
+            src="http://mnl.mclinc.org/wp-content/uploads/ComputerLab/Mousercise2.0/images/continue.gif"
+            alt="botao"
+            style="display: none; margin: 20px"
         /></a>
       </div>
     </main>
+    <script>
+      let contador = 0;
+
+      const pagina = document.getElementsByTagName("html").item(0);
+      pagina.addEventListener("click", aumentar);
+
+      function aumentar() {
+        contador++;
+        localStorage.setItem("qnt31", contador);
+      }
+    </script>
   </body>
 </html>
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+  rel="stylesheet"
+/>
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap"
+  rel="stylesheet"
+/>
